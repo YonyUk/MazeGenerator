@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Generación procedural de laberintos
 
 ## Introducción
@@ -124,6 +123,8 @@ Los resultados obtenidos fueron satisfactorios, logrando generar laberintos que 
     </div>
 </div>
 
+Una clara deficiencia es que todos los caminos tienen una anchura de 1, pero esto puede ser variado mediante varios artificios.
+
 ### Uso
 
 Se usa la librería **Pygame** para mostrar el laberinto, pero no es necesaria para generar el laberinto.
@@ -140,6 +141,3 @@ python main.py -col <value> -row <value> -x <value> -y <value>
 ```
 
 Los flags *col* y *row* son para indicar cuantas habitaciones en vertical y horizontal respectivamente se generan inicialmente, mientras que los flag x e y son la coordendada desde la que se inicia el proceso.
-=======
-hello world
->>>>>>> 10d190b3d705a260410b4a21049dbca1c459eba2
