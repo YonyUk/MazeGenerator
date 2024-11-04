@@ -91,7 +91,7 @@ En las imágenes vemos dos laberintos distintos generados por el mismo algoritmo
     </div>
 </div>
 
-Se observa que a pesar de su aparente similitud, ambos son muy diferentes. Cabe recalcar que todos los laberintos generados de esta forma, tendran una apariencia similar. Se observa también el rasgo de no generar ciclos, pero generar largos pasajes sin salida que pueden confundir al espectador, junto con la accesibilidad de cualquier punto del laberinto.
+Se observa que a pesar de su aparente similitud, ambos son muy diferentes. Cabe recalcar que todos los laberintos generados de esta forma, tendran una apariencia similar. Se observa también el rasgo de no generar ciclos, pero generan largos pasajes sin salida que pueden confundir al espectador, junto con la accesibilidad de cualquier punto del laberinto.
 
 La clase *IterativeRBv2* implementa la variente propuesta, hereda de la clase *IterativeRB* para mantener el mismo enfoque y se agregan ciertos pasos para conseguir el objetivo final. Un aspecto importante a destacar es que, aunque la variante inicialmente propuesta funciona en todos los sentidos, tiende a dejar muros aislados de dimensiones 1x1
 
@@ -106,7 +106,7 @@ La clase *IterativeRBv2* implementa la variente propuesta, hereda de la clase *I
     </div>
 </div>
 
-Para eliminar esto, se agrega un paso extra para detectar si se ha creado un muro aislado, y en caso afirmativo, eliminarlo. Dado la forma en que se va contruyendo el laberinto, un muro aislado solo puede aparecer como vecino inmediato en diagonal a un muro reciente mente destruido, por lo que podemos eliminar un muro aislado de forma inmediata y eficiente.
+Para eliminar esto, se agrega un paso extra para detectar si se ha creado un muro aislado, y en caso afirmativo, eliminarlo. Dado la forma en que se va contruyendo el laberinto, un muro aislado solo puede aparecer como vecino inmediato en diagonal a un muro recientemente destruido, por lo que podemos eliminar un muro aislado de forma inmediata y eficiente.
 
 ## Resultados finales
 
