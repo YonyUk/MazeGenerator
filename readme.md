@@ -71,7 +71,7 @@ def generate_maze(start,map):
     return map
 ```
 
-La modificación propuesta es, una vez que se llege al punto en que no hayan habitaciones contiguas sin visitar que se puedan escoger, y podamos regresar sobre el camino tomado, escoger aleatoriamente entre derribar o no un muro entre una habitación visitada contigua a la actual, dicha habitación se selecciona aleatoriamente; y luego regresar de la misma forma que en la versión original por el camino recorrido.
+La modificación propuesta es, una vez que se llege al punto en que no hayan habitaciones contiguas sin visitar que se puedan escoger, y podamos regresar sobre el camino tomado, escoger aleatoriamente entre derribar o no un muro entre una habitación visitada contigua a la actual, dicha habitación se selecciona aleatoriamente; y luego regresar de la misma forma que en la versión original por el camino recorrido. La decisión se toma mediante una función de probabilidad, lo que permite variar la probabilidad de que aparezcan ciclos, ampliando la longitud de estos en caso de aparecer.
 
 ## Implementación
 
