@@ -20,7 +20,7 @@ Entre los algortimos usados para generar laberintos podemos encontrar los siguie
 > ### Kruskal
  - Utiliza conjuntos disjuntos para unir caminos, y por tanto habitaciones
  - Implementación compleja respecto a otros algoritmos
- - Menos control sobre la forma del laberinto resultante, llegando a tener areas grandes sin pasajes
+ - Menos control sobre la forma del laberinto resultante, llegando a tener áreas grandes sin pasajes
 
 > ### Backtracker Recursivo
  - Es flexible
