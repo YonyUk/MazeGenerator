@@ -11,8 +11,8 @@ Entre los algortimos usados para generar laberintos podemos encontrar los siguie
 
 > ### Algorimo de Prim
  - Genera laberintos de un solo camino hasta la salida
- - Asegura que cada exista un camino entro cualquier par de puntos
- - Produce diferentes laberintos con la misma configuracion inicial
+ - Asegura que exista un camino entre cualquier par de puntos
+ - Produce diferentes laberintos con la misma configuración inicial
  - Puede ser menos eficiente al generar laberintos grandes en comparación con otros algoritmos
  - Los laberintos generados pueden ser demasiado predecibles
  - Genera muchos caminos cortos
@@ -24,7 +24,7 @@ Entre los algortimos usados para generar laberintos podemos encontrar los siguie
 
 > ### Backtracker Recursivo
  - Es flexible
- - Permite creare laberintos con estructuras muy variadas y complejas
+ - Permite crear laberintos con estructuras muy variadas y complejas
  - Fácil de entender
  - Puede ser ineficiente en laberintos grandes
  - Genera laberintos de un solo camino
