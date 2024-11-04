@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generación procedural de laberintos
 
 ## Introducción
@@ -139,3 +140,6 @@ python main.py -col <value> -row <value> -x <value> -y <value>
 ```
 
 Los flags *col* y *row* son para indicar cuantas habitaciones en vertical y horizontal respectivamente se generan inicialmente, mientras que los flag x e y son la coordendada desde la que se inicia el proceso.
+=======
+hello world
+>>>>>>> 10d190b3d705a260410b4a21049dbca1c459eba2
